@@ -4,7 +4,7 @@ This project is a shopping application that uses the Fakestore API to fetch prod
 # Features
 
 ## Product Listing Page: 
-Fetches and displays products from the Fakestore API with pagination or infinite scroll.
+Fetches and displays products from the Fakestore API.
 
 ## Product Details Page: 
 Displays detailed information about a selected product with an option to add it to the cart.
@@ -16,19 +16,19 @@ Users can add, update, and remove items from the cart. The total price is displa
 Users can review their order and proceed to checkout.
 
 ## Authentication: 
-Users must register or log in using Firebase Authentication before placing an order.
+Users must register or log in using Firebase Authentication.
 
 ## Offline Functionality: 
 Browsing of previously fetched products and cart functionality is available offline using GetStorage.
 
 ## Search Functionality: 
-Users can search for products by name or category.
+Users can search for products by product name/title.
 
 ## State Management: 
 The application uses Bloc for state management.
 
 ## Unit Tests: 
-Includes unit tests for state management and Unit tests.
+Includes unit tests for state management.
 
 # Tech Stack
  - Flutter: Cross-platform mobile application development.
