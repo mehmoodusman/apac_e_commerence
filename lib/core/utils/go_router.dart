@@ -1,3 +1,6 @@
+import 'package:apac_e_commerce/src/authentication/presentation/view/auth_wrapper.dart';
+import 'package:apac_e_commerce/src/authentication/presentation/view/login_page.dart';
+import 'package:apac_e_commerce/src/authentication/presentation/view/register_page.dart';
 import 'package:apac_e_commerce/src/cart/presentation/view/cart_page.dart';
 import 'package:apac_e_commerce/src/confirmation_page/presentation/view/confirmation_page.dart';
 import 'package:apac_e_commerce/src/producs_list/data/model/product.dart';
@@ -21,7 +24,7 @@ class MyRouter {
         path: '/',
         name: StringConst.initialPath,
         builder: (BuildContext context, GoRouterState state) {
-          return const ProductListingPage();
+          return AuthWrapper();
         },
       ),
       GoRoute(
@@ -29,6 +32,27 @@ class MyRouter {
         name: StringConst.cartName,
         builder: (BuildContext context, GoRouterState state) {
           return const CartPage();
+        },
+      ),
+      GoRoute(
+        path: StringConst.productListingPath,
+        name: StringConst.productListingName,
+        builder: (BuildContext context, GoRouterState state) {
+          return ProductListingPage();
+        },
+      ),
+      GoRoute(
+        path: StringConst.registerPath,
+        name: StringConst.registerName,
+        builder: (BuildContext context, GoRouterState state) {
+          return RegisterPage();
+        },
+      ),
+      GoRoute(
+        path: StringConst.loginPath,
+        name: StringConst.loginName,
+        builder: (BuildContext context, GoRouterState state) {
+          return LoginPage();
         },
       ),
       GoRoute(

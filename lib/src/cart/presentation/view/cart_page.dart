@@ -15,6 +15,7 @@ class CartPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Cart'),
+        backgroundColor: Colors.teal,
       ),
       body: BlocBuilder<CartBloc, CartState>(
         builder: (context, state) {
@@ -114,7 +115,7 @@ class CartPage extends StatelessWidget {
                     Expanded(
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.green,
+                          backgroundColor: Colors.teal,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10.0),
                           ),
@@ -122,7 +123,10 @@ class CartPage extends StatelessWidget {
                         onPressed: () {
                           context.pushNamed(StringConst.confirmationName);
                         },
-                        child: const Text('Checkout'),
+                        child: const Text(
+                          'Checkout',
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ),
                     const SizedBox(width: 16),

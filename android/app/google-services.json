@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "375816575279",
+    "project_id": "apac-task",
+    "storage_bucket": "apac-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375816575279:android:a4d6123f7c6957285ee9da",
+        "android_client_info": {
+          "package_name": "com.apac.ecommerce.apac_e_commerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsWDvtValIlQD1KglEQXzo6HxqWCIZ-kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

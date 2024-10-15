@@ -14,6 +14,7 @@ class ProductDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(product.title),
+        backgroundColor: Colors.teal,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -97,7 +98,7 @@ class ProductDetailPage extends StatelessWidget {
               const SizedBox(height: 8),
               Text(
                 '\$${product.price}',
-                style: const TextStyle(fontSize: 20, color: Colors.green),
+                style: const TextStyle(fontSize: 20, color: Colors.teal),
               ),
               const SizedBox(height: 8),
               Text('Rating: ${product.rating}'),

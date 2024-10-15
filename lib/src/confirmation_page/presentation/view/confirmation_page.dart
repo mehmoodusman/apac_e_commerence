@@ -13,6 +13,7 @@ class ConfirmationPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Confirm Your Order'),
+        backgroundColor: Colors.teal,
       ),
       body: BlocBuilder<CartBloc, CartState>(
         builder: (context, state) {
@@ -120,7 +121,7 @@ class ConfirmationPage extends StatelessWidget {
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
-                            color: Colors.green,
+                            color: Colors.teal,
                           ),
                         ),
                       ],
@@ -129,7 +130,7 @@ class ConfirmationPage extends StatelessWidget {
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         minimumSize: const Size(double.infinity, 50),
-                        backgroundColor: Colors.green,
+                        backgroundColor: Colors.teal,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12.0),
                         ),
@@ -139,7 +140,7 @@ class ConfirmationPage extends StatelessWidget {
                       },
                       child: const Text(
                         'Confirm Order',
-                        style: TextStyle(fontSize: 18),
+                        style: TextStyle(fontSize: 18, color: Colors.white),
                       ),
                     ),
                   ],
