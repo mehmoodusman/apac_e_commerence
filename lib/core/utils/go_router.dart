@@ -3,8 +3,8 @@ import 'package:apac_e_commerce/src/authentication/presentation/view/login_page.
 import 'package:apac_e_commerce/src/authentication/presentation/view/register_page.dart';
 import 'package:apac_e_commerce/src/cart/presentation/view/cart_page.dart';
 import 'package:apac_e_commerce/src/confirmation_page/presentation/view/confirmation_page.dart';
-import 'package:apac_e_commerce/src/producs_list/data/model/product.dart';
-import 'package:apac_e_commerce/src/producs_list/presentation/view/product_listing_page.dart';
+import 'package:apac_e_commerce/src/products_list/data/model/product.dart';
+import 'package:apac_e_commerce/src/products_list/presentation/view/product_listing_page.dart';
 import 'package:apac_e_commerce/src/product_detail/presentation/view/product_detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';

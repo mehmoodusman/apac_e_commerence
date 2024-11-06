@@ -1,7 +1,7 @@
 import 'package:apac_e_commerce/core/error/failure.dart';
-import 'package:apac_e_commerce/src/producs_list/data/data_source/product_list_data_source.dart';
-import 'package:apac_e_commerce/src/producs_list/data/model/product.dart';
-import 'package:apac_e_commerce/src/producs_list/data/repository/product_list_respostory.dart';
+import 'package:apac_e_commerce/src/products_list/data/data_source/product_list_data_source.dart';
+import 'package:apac_e_commerce/src/products_list/data/model/product.dart';
+import 'package:apac_e_commerce/src/products_list/data/repository/product_list_respostory.dart';
 import 'package:connectivity_plus_platform_interface/src/enums.dart';
 import 'package:dartz/dartz.dart';
 

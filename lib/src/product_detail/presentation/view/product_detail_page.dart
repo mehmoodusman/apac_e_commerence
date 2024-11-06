@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import '../../../producs_list/data/model/product.dart';
+import '../../../products_list/data/model/product.dart';
 
 class ProductDetailPage extends StatelessWidget {
   final Product product;

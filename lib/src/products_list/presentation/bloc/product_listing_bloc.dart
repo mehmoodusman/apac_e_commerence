@@ -1,5 +1,5 @@
 // BLoC
-import 'package:apac_e_commerce/src/producs_list/data/repository/product_list_respostory.dart';
+import 'package:apac_e_commerce/src/products_list/data/repository/product_list_respostory.dart';
 import 'package:bloc/bloc.dart';
 import 'product_listing_event.dart';
 import 'product_listing_state.dart';

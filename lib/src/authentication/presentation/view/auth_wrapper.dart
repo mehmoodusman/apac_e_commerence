@@ -1,4 +1,4 @@
-import 'package:apac_e_commerce/src/producs_list/presentation/view/product_listing_page.dart';
+import 'package:apac_e_commerce/src/products_list/presentation/view/product_listing_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/widgets.dart';
 

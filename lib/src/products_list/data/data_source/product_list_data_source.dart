@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:apac_e_commerce/core/utils/extensions.dart';
-import 'package:apac_e_commerce/src/producs_list/data/model/product.dart';
+import 'package:apac_e_commerce/src/products_list/data/model/product.dart';
 
 import '../../../../core/error/exceptions.dart';
 import '../../../../core/utils/api_endpoints.dart';

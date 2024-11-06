@@ -1,6 +1,6 @@
-import 'package:apac_e_commerce/src/producs_list/presentation/bloc/product_listing_bloc.dart';
-import 'package:apac_e_commerce/src/producs_list/presentation/bloc/product_listing_event.dart';
-import 'package:apac_e_commerce/src/producs_list/presentation/bloc/product_listing_state.dart';
+import 'package:apac_e_commerce/src/products_list/presentation/bloc/product_listing_bloc.dart';
+import 'package:apac_e_commerce/src/products_list/presentation/bloc/product_listing_event.dart';
+import 'package:apac_e_commerce/src/products_list/presentation/bloc/product_listing_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'fake_product_listing_repositiry.dart';

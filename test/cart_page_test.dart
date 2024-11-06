@@ -1,6 +1,6 @@
 import 'package:apac_e_commerce/src/cart/presentation/bloc/cart_bloc.dart';
 import 'package:apac_e_commerce/src/cart/presentation/bloc/cart_event.dart';
-import 'package:apac_e_commerce/src/producs_list/data/model/product.dart';
+import 'package:apac_e_commerce/src/products_list/data/model/product.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

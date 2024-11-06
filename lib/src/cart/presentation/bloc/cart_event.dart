@@ -1,4 +1,4 @@
-import '../../../producs_list/data/model/product.dart';
+import '../../../products_list/data/model/product.dart';
 
 abstract class CartEvent {}
 
